@@ -15,7 +15,7 @@
     
     <div id="left">
       
-      <form> 
+      <form name="custform" action="#" method="post" onsubmit="return processForm()"> 
         
         <fieldset>
           <legend> Add Customer Info</legend>
@@ -36,7 +36,7 @@
         
         <div>
             <label>Quantity: </label>
-            <input type="number" name="qty" id="qty" required>
+            <input type="number" name="qty" id="qty">
         </div>
 
                   
@@ -47,12 +47,12 @@
 
         <div>
           <label>Postal Code: </label>
-          <input type="text" name="pstl" id="pstl" required>
+          <input type="text" name="pstl" id="pstl">
         </div>
 
         <div>
           <label>Phone Number: </label>
-          <input type="number" name="phone" id="phone" required>
+          <input type="number" name="phone" id="phone">
         </div>        
 
 

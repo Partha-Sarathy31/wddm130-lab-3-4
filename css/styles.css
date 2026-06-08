@@ -16,7 +16,7 @@ div{
   margin-bottom: 10px;
 }
 
-div label, div input{
+div label, div input, div select{
   width: 200px;
 }
 
@@ -27,4 +27,12 @@ input[type=submit], input[type=reset]{
 
 #formSubmit{
   justify-content: flex-end;
+}
+
+#right h3{
+  color: red;
+}
+
+#right{
+  display: block;
 }
