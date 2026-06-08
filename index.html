@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Customer Info</h1>
+  </header>
+  <main>
+    
+    <div id="left">
+      
+      <form> 
+        
+        <fieldset>
+          <legend> Add Customer Info</legend>
+          
+          <div>
+            <label>Customer Name: </label>
+            <input type="text" name="cname" id="cname">
+          </div>
+          
+          <div>
+          <label>Product Type: </label>
+          <select name="prod" id="prod">
+            <option> Laptop </option>
+            <option> Tablet </option>
+            <option> Phone </option>
+          </select>
+        </div>          
+        
+        <div>
+            <label>Quantity: </label>
+            <input type="number" name="qty" id="qty">
+        </div>
+
+                  
+        <div>
+            <label>Promo: </label>
+            <input type="text" name="promo" id="promo">
+        </div>
+
+        <div>
+          <label>Postal Code: </label>
+          <input type="text" name="pstl" id="pstl">
+        </div>
+
+        <div>
+          <label>Phone Number: </label>
+          <input type="number" name="phone" id="phone">
+        </div>        
+
+
+          <div id="formSubmit">
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+          </div>
+
+        </fieldset>
+
+      </form>
+
+    </div>
+    
+    <div id="right"></div>
+
+  </main>
+</body>
+</html>
