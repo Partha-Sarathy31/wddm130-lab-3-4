@@ -1,4 +1,4 @@
-var tabTop =` <table> 
+var tabTop =`<table> 
 <thead>
     <tr> 
     <th>Name </th> <th> Product </th> <th> Qty </th> <th> Sub Total </th> <th> Total </th>
@@ -44,7 +44,7 @@ function regTest(value, regEx){
   return regEx.test(value);
 }
 
-function processForm() {
+function processForm(){
 
   var subTotal = 0
   var total = 0;
