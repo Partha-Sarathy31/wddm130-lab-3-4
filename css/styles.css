@@ -1,0 +1,30 @@
+body {
+  width: 900px;
+  margin: auto;
+}
+
+main{
+  display: flex;
+}
+
+#left, #right{
+  flex-basis: 50%;
+}
+
+div{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+div label, div input{
+  width: 200px;
+}
+
+input[type=submit], input[type=reset]{
+  width: 60px;
+  margin-right: 10px; 
+}
+
+#formSubmit{
+  justify-content: flex-end;
+}
